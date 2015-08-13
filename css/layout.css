@@ -23,7 +23,6 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
-
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -39,6 +38,12 @@ header {
     text-align: center;
     overflow: hidden;
 }
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
 
 /* vertically center banner section */
 header:before {
