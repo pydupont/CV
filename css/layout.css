@@ -1,3 +1,4 @@
+
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -277,7 +278,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .software {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
@@ -376,6 +377,74 @@ ul#nav li.current a { color: #F06000; }
     color: #6E7881;
 }
 
+
+
+
+#software {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#software a, #software a:visited  { color: #11ABB0; }
+#software a:hover, #software a:focus { color: #313131; }
+
+#software h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#software h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
+#software h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#software .header-col { padding-top: 9px; }
+#software .main-col { padding-right: 10%; }
+
+.education, .software {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+    text-align: justify;
+}
+#software .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    font-weight: 500;
+}
+
+#software .info-articles{
+    font: 16px/24px 'librebaskerville-italic', serif; 
+    color: #11ABB0;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    font-weight: 500;
+}
+
+#software .resume-infos{
+    padding-left:50px;
+}
+
+#software .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#software .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+    color: #6E7881;
+}
+
+
+
+
 #skills {
     background: #fff;
     padding-top: 90px;
@@ -402,7 +471,7 @@ ul#nav li.current a { color: #F06000; }
 #skills .header-col { padding-top: 9px; }
 #skills .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .software {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
@@ -482,6 +551,12 @@ ul#nav li.current a { color: #F06000; }
     border-radius: 3px 0 0 3px;
 }
 
+.bar-value{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
 .python {
     width: 95%;
     -moz-animation: photoshop 2s ease;
@@ -508,7 +583,7 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: html5 2s ease;
 }
 .sql {
-    width: 70%;
+    width: 75%;
     -moz-animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
@@ -540,7 +615,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes sql {
     0%   { width: 0px;  }
-    100% { width: 70%;  }
+    100% { width: 75%;  }
 }
 @-moz-keyframes cpp {
     0%   { width: 0px;  }
@@ -570,7 +645,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes sql {
     0%   { width: 0px;  }
-    100% { width: 70%;  }
+    100% { width: 75%;  }
 }
 @-webkit-keyframes cpp {
     0%   { width: 0px;  }
@@ -1070,3 +1145,8 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+
+.justify > dl > dd{
+    text-align: justify;
+}
