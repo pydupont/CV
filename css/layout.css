@@ -356,14 +356,14 @@ span.highlight {
 #resume .info-articles {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #11ABB0;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
   margin-top: 9px;
   font-weight: 500;
 }
 
-#resume .resume-infos {
-  border-left: 2px solid;
-  padding-left: 10px;
+.resume-infos {
+  /*border-left: 2px solid;*/
+  padding-left: 20px;
 }
 
 #resume .info span {
@@ -373,8 +373,9 @@ span.highlight {
 
 #resume .date {
   font: 15px/24px 'opensans-regular', sans-serif;
-  margin-top: 6px;
+  /*margin-top: 6px;*/
   color: #11ABB0;
+
 }
 
 #work {
@@ -383,6 +384,7 @@ span.highlight {
   padding-bottom: 72px;
   overflow: hidden;
 }
+
 
 #work a, #work a:visited {
   color: #11ABB0;
@@ -403,8 +405,15 @@ span.highlight {
   padding-bottom: 6px;
 }
 
+#work .no-top-margin{
+  font: 25px/30px 'opensans-bold', sans-serif;
+  margin-top: 0px;
+  padding-top: 9px;
+}
+
 #work h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
+  margin-top: 50px;
 }
 
 #work .header-col {
@@ -426,14 +435,14 @@ span.highlight {
 #work .info-articles {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #11ABB0;
-  margin-bottom: 18px;
-  margin-top: 9px;
+  margin-bottom: 0px;
+  margin-top: 30px;
   font-weight: 500;
 }
 
-#work .resume-infos {
+/*#work .resume-infos {
   padding-left: 50px;
-}
+}*/
 
 #work .info span {
   margin-right: 5px;
@@ -442,8 +451,9 @@ span.highlight {
 
 #work .date {
   font: 15px/24px 'opensans-regular', sans-serif;
-  margin-top: 6px;
+  /*margin-top: 6px;*/
   color: #6E7881;
+  padding-left: 20px;
 }
 
 #software {
@@ -495,14 +505,14 @@ span.highlight {
 #software .info-articles {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #11ABB0;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
   margin-top: 9px;
   font-weight: 500;
 }
 
-#software .resume-infos {
+/*#software .resume-infos {
   padding-left: 50px;
-}
+}*/
 
 #software .info span {
   margin-right: 5px;
@@ -511,7 +521,7 @@ span.highlight {
 
 #software .date {
   font: 15px/24px 'opensans-regular', sans-serif;
-  margin-top: 6px;
+  /*margin-top: 6px;*/
   color: #6E7881;
 }
 
@@ -564,14 +574,14 @@ span.highlight {
 #skills .info-articles {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #11ABB0;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
   margin-top: 9px;
   font-weight: 500;
 }
 
-#skills .resume-infos {
+/*#skills .resume-infos {
   padding-left: 50px;
-}
+}*/
 
 #skills .info span {
   margin-right: 5px;
@@ -580,7 +590,7 @@ span.highlight {
 
 #skills .date {
   font: 15px/24px 'opensans-regular', sans-serif;
-  margin-top: 6px;
+  /*margin-top: 6px;*/
   color: #6E7881;
 }
 
@@ -633,14 +643,14 @@ span.highlight {
 #programming .info-articles {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #11ABB0;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
   margin-top: 9px;
   font-weight: 500;
 }
 
-#programming .resume-infos {
+/*#programming .resume-infos {
   padding-left: 50px;
-}
+}*/
 
 #programming .info span {
   margin-right: 5px;
@@ -649,7 +659,7 @@ span.highlight {
 
 #programming .date {
   font: 15px/24px 'opensans-regular', sans-serif;
-  margin-top: 6px;
+  /*margin-top: 6px;*/
   color: #6E7881;
 }
 
