@@ -4,9 +4,11 @@
 \usepackage[left=60pt,top=60pt,right=60pt,bottom=60pt]{geometry}
 \usepackage[inline]{enumitem}
 
+\usepackage[utf8]{luainputenc}
 \usepackage[T1]{fontenc}
 
 %\usepackage{gfsdidot}
+\DeclareTextCommandDefault{\nobreakspace}{\leavevmode\nobreak\ } 
 
 \setlength{\hintscolumnwidth}{0pt}
 \linespread{1.1}
@@ -28,7 +30,6 @@
 \item[Nationality] French
 \item[Residency] New Zealand
 \item[Languages] French (mother tongue), English (advanced)
-
 \end{description}
 
 \section{POSITIONS}
@@ -40,7 +41,7 @@ Lateral gene transfer in fungi: Identifying the cross-species toolbox for metabo
 
 \cvitem{}{\textbf{PhD studentship at INRA}, Clermont Ferrand, France; 2008 -- 2011\\
 Thesis on developing bioinformatics tools to combine information from metabolomics, transcriptomics and promotor studies to characterize metabolic pathways involved in liver cancers. Collaboration with Polytechnic school (Palaiseau, France) to develop software for biological pathway modelling and biochemical dynamics analysis.}
-\newpage
+
 \cvitem{}{\textbf{Masters Internship at European Institute of Biology and Chemistry}, Bordeaux, France; 2008\\
 Evaluation of a docking software (Autodock v.4) and development of an automatic procedure to compute docking of multiple ligands on kinase receptors using a computation cluster.}
 
@@ -58,6 +59,9 @@ Development of software for visualisation and detection of internal movements in
 
 \section{PUBLICATIONS}
 
+\cvitem{}{\textit{Genomic data quality impacts automatic detection of lateral gene transfer in fungi} - 
+\textbf{Dupont PY} and Cox MP; Genes | Genomes | Genetics; 2017; 7(4):1301-1314}
+
 \cvitem{}{\textit{Fungal endophyte infection of ryegrass reprogrammes host metabolism and alters development} - 
 \textbf{Dupont PY}, Eaton CJ, Wargent JJ, Fechtner S, Solomon P, Schmid J, Day RC, Scott B, Cox MP; New Phytologist; 2015; 208(4):1227-1240}
 
@@ -71,13 +75,13 @@ Duchemin W, \textbf{Dupont PY}, Campbell MA, Ganley A and Cox MP; BMC Bioinforma
 Schardl CL, Young CA, Moore N, Krom N, \textbf{Dupont PY}, Pan J, Farman ML; Advances in Botanical Research, 2014; 70:291-327}
 
 \cvitem{}{\textit{Computational identification of transcriptionally co-regulated genes, validation with the four ANT isoform genes} - 
-\textbf{Dupont PY}, Guttin A, Issartel JP, Stepien G; BMC Genomics, 13:482}
+\textbf{Dupont PY}, Guttin A, Issartel JP, Stepien G; BMC Genomics, 2012; 13:482}
 
 \cvitem{}{\textit{Computational analysis of the transcriptional regulation of the adenine nucleotide translocator isoform 4 gene and its role in spermatozoid glycolytic metabolism} - 
-\textbf{Dupont PY}, Stepien G; Gene, 487(1):38-45}
+\textbf{Dupont PY}, Stepien G; Gene, 2011; 487(1):38-45}
 
 \cvitem{}{\textit{Description and assessment of a model for GSK-3beta database virtual screening} - 
-Ventimila N, \textbf{Dupont PY}, Laguerre M, Dessolin J; J Enzyme Inhib Med Chem, 25(2):152-7}
+Ventimila N, \textbf{Dupont PY}, Laguerre M, Dessolin J; J Enzyme Inhib Med Chem, 2010; 25(2):152-7}
 
 \section{CONFERENCES}
 \cvitem{}{\textit{Insights into the molecular mechanisms underlying grass-endophyte symbiosis} - 
@@ -96,11 +100,10 @@ Plant-fungal interactions symposium; The Samuel Roberts Noble Foundation; March 
 \cvitem{}{I also worked on the development of a proprietary information system for academic research (written in C++) during my PhD. Some more of my work, including the slides of my teaching, can be found in my Sourceforge (\href{}{http://sourceforge.net/u/pydupont/profile/}) and Github (\href{}{https://github.com/pydupont}) personal pages}
 
 \section{TEACHING}
-\cvitem{}{I have been involved in teaching to both undergraduate students and academic staff. I have taught Microarray analysis to third year students at Massey University in 2015 and to medical students in Clermont-Ferrand University, France in 2010 and 2011. I also created an introductory course to Unix and Python programming for Massey University staff (2013-2014). I have also given numerous tutorials on a variety of computer-related topics including SVN and GIT, Ruby on Rails and Lisp.}
+\cvitem{}{I have been involved in teaching to both undergraduate students and academic staff. I have taught Microarray analysis to third year students at Massey University in 2015 and to medical students in Clermont-Ferrand University, France in 2010 and 2011. I also created an introductory course to Unix and Python programming for Massey University staff (2013-2014). I have also given numerous tutorials on a variety of computer-related topics including SVN and GIT, Ruby on Rails and Lisp. Finally, I am training and mentoring PhD students and confirmed researchers for statistical analyses and the use of bioinformatics tools in the space or transcriptomics, phylogenetics, next-generation sequencing and comparative genomics.}
 
 \section{SKILLS}
 \cvitem{Phylogeny}{Neighbor Joining, Maximum Likelihood (PHYLIP, PhyML, RAxML), supertrees, consensus trees. Multiple sequence alignments with mafft, clustal, kalign, muscle, etc. Analysis libraries: ETE toolkit + BioPython (Python) and phangorn (R)}
-\newpage
 \cvitem{Next Generation Sequencing}{Expert in NGS data analysis. RNA-Seq (Illumina) data analysis from raw read data to complex statistical analysis of the results and experimental condition comparison. Genomic (Illumina and 454) de novo assembly, genomic comparison and SNP calling}
 \cvitem{Statistics}{Good understanding of statistics, Markov chains and Monte Carlo statistics. Principal and Independent Component Analysis, clustering. Commonly build statistical pipeline for analysing biological data. Common use of Python and R for adanced data analysis}
 \cvitem{Protein structure analysis and visualisation}{AutoDock, GOLD, VMD }
