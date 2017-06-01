@@ -35,6 +35,7 @@ header {
   min-height: 500px;
   width: 100%;
   background: #161415 url(../images/bg.jpg) no-repeat top center;
+  /*background: #afafaf;*/
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -65,8 +66,8 @@ header .banner {
 }
 
 header .semitransp {
-  background: rgba(0,0,0,0.7);
-  box-shadow: 0 0 50px 100px rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 20px 50px rgba(0,0,0,0.6);
 }
 
 header .banner-text {
@@ -338,7 +339,7 @@ span.highlight {
   padding-right: 10%;
 }
 
-.education, .work, .software, .awards, .skills {
+.education, .work, .publication, .awards, .skills {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #E8E8E8;
@@ -378,13 +379,90 @@ span.highlight {
 
 }
 
-#work {
+#publication {
   background: #fff;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
+
+#publication a, #publication a:visited {
+  color: #11ABB0;
+}
+
+#publication a:hover, #publication a:focus {
+  color: #313131;
+}
+
+#publication h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#publication h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+
+#publication .no-top-margin{
+  font: 25px/30px 'opensans-bold', sans-serif;
+  margin-top: 0px;
+  padding-top: 9px;
+}
+
+#publication h3 {
+  font: 25px/30px 'opensans-bold', sans-serif;
+  margin-top: 50px;
+}
+
+#publication .header-col {
+  padding-top: 9px;
+}
+
+#publication .main-col {
+  padding-right: 10%;
+}
+
+#publication .info {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+  font-weight: 500;
+}
+
+#publication .info-articles {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #11ABB0;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+/*#publication .resume-infos {
+  padding-left: 50px;
+}*/
+
+#publication .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#publication .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  /*margin-top: 6px;*/
+  color: #6E7881;
+  padding-left: 20px;
+}
+
+#work {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
 
 #work a, #work a:visited {
   color: #11ABB0;
@@ -405,15 +483,8 @@ span.highlight {
   padding-bottom: 6px;
 }
 
-#work .no-top-margin{
-  font: 25px/30px 'opensans-bold', sans-serif;
-  margin-top: 0px;
-  padding-top: 9px;
-}
-
 #work h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
-  margin-top: 50px;
 }
 
 #work .header-col {
@@ -436,7 +507,7 @@ span.highlight {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #11ABB0;
   margin-bottom: 0px;
-  margin-top: 30px;
+  margin-top: 9px;
   font-weight: 500;
 }
 
@@ -450,76 +521,6 @@ span.highlight {
 }
 
 #work .date {
-  font: 15px/24px 'opensans-regular', sans-serif;
-  /*margin-top: 6px;*/
-  color: #6E7881;
-  padding-left: 20px;
-}
-
-#software {
-  background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
-  overflow: hidden;
-}
-
-#software a, #software a:visited {
-  color: #11ABB0;
-}
-
-#software a:hover, #software a:focus {
-  color: #313131;
-}
-
-#software h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-#software h1 span {
-  border-bottom: 3px solid #11ABB0;
-  padding-bottom: 6px;
-}
-
-#software h3 {
-  font: 25px/30px 'opensans-bold', sans-serif;
-}
-
-#software .header-col {
-  padding-top: 9px;
-}
-
-#software .main-col {
-  padding-right: 10%;
-}
-
-#software .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
-  color: #6E7881;
-  margin-bottom: 18px;
-  margin-top: 9px;
-  font-weight: 500;
-}
-
-#software .info-articles {
-  font: 16px/24px 'librebaskerville-italic', serif;
-  color: #11ABB0;
-  margin-bottom: 0px;
-  margin-top: 9px;
-  font-weight: 500;
-}
-
-/*#software .resume-infos {
-  padding-left: 50px;
-}*/
-
-#software .info span {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-#software .date {
   font: 15px/24px 'opensans-regular', sans-serif;
   /*margin-top: 6px;*/
   color: #6E7881;
@@ -723,7 +724,7 @@ span.highlight {
 }
 
 .r {
-  width: 80%;
+  width: 90%;
   -moz-animation: r 3s cubic-bezier(.43,.12,.25,.99);
   -webkit-animation: r 4s ease;
 }
@@ -774,7 +775,7 @@ span.highlight {
   }
 
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -844,7 +845,7 @@ span.highlight {
   }
 
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
