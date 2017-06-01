@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/dodup64
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pydupont.github.io
+  * I am dodup64 (https://keybase.io/dodup64) on keybase.
+  * I have a public key ASA-l3o8rgzDVHdKl0l-KbS0zwJERAxzI5C-VkZVtXj94go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01203e977a3cae0cc354774a97497e29b4b4cf0244440c732390be564655b578fde20a",
+            "host": "keybase.io",
+            "kid": "01203e977a3cae0cc354774a97497e29b4b4cf0244440c732390be564655b578fde20a",
+            "uid": "bf2bc993d1f5811adc65be000e58ae19",
+            "username": "dodup64"
+        },
+        "service": {
+            "hostname": "pydupont.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1493678895,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1493678828,
+        "hash": "74081ec59fc82b3fe7168f518c8e4f32751433f38dc3f10a12506d097b9920f44209d3a93a323ccce1ae275d3e5ad47f95eb55b1b8f7b9faab21267a12d0864f",
+        "seqno": 1048405
+    },
+    "prev": "dfdca5ccbb367fb4cede78c4e5a30d34524374e9ea3a0706bd6256ca39ea7f64",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPpd6PK4Mw1R3SpdJfim0tM8CREQMcyOQvlZGVbV4/eIKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwM2U5NzdhM2NhZTBjYzM1NDc3NGE5NzQ5N2UyOWI0YjRjZjAyNDQ0NDBjNzMyMzkwYmU1NjQ2NTViNTc4ZmRlMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2U5NzdhM2NhZTBjYzM1NDc3NGE5NzQ5N2UyOWI0YjRjZjAyNDQ0NDBjNzMyMzkwYmU1NjQ2NTViNTc4ZmRlMjBhIiwidWlkIjoiYmYyYmM5OTNkMWY1ODExYWRjNjViZTAwMGU1OGFlMTkiLCJ1c2VybmFtZSI6ImRvZHVwNjQifSwic2VydmljZSI6eyJob3N0bmFtZSI6InB5ZHVwb250LmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIyIn0sImN0aW1lIjoxNDkzNjc4ODk1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTM2Nzg4MjgsImhhc2giOiI3NDA4MWVjNTlmYzgyYjNmZTcxNjhmNTE4YzhlNGYzMjc1MTQzM2YzOGRjM2YxMGExMjUwNmQwOTdiOTkyMGY0NDIwOWQzYTkzYTMyM2NjY2UxYWUyNzVkM2U1YWQ0N2Y5NWViNTViMWI4ZjdiOWZhYWIyMTI2N2ExMmQwODY0ZiIsInNlcW5vIjoxMDQ4NDA1fSwicHJldiI6ImRmZGNhNWNjYmIzNjdmYjRjZWRlNzhjNGU1YTMwZDM0NTI0Mzc0ZTllYTNhMDcwNmJkNjI1NmNhMzllYTdmNjQiLCJzZXFubyI6NywidGFnIjoic2lnbmF0dXJlIn2jc2lnxECNogDB/v4N5oeSl6rQ7LdNxgP6cjFpKcPjoRkN46Spb0CQ+nWTt6DpSq/SZ8qpm6EgzqEHH2ziFo2BR/mz5C4KqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgbY34Kh8pubmOGmQzqZDIhHkYNp9KrWgVstyrcftstJGjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dodup64
+
+==================================================================
