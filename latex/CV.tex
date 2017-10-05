@@ -4,112 +4,100 @@
 \usepackage[left=60pt,top=60pt,right=60pt,bottom=60pt]{geometry}
 \usepackage[inline]{enumitem}
 
-\usepackage[utf8]{luainputenc}
 \usepackage[T1]{fontenc}
-
 %\usepackage{gfsdidot}
-\DeclareTextCommandDefault{\nobreakspace}{\leavevmode\nobreak\ } 
+
+\usepackage{xpatch}
+\renewcommand{\ttdefault}{ul9}
+\xpatchcmd{\ttfamily}{\selectfont}{\fontencoding{T1}\selectfont}{}{}
+\DeclareTextCommand{\nobreakspace}{T1}{\leavevmode\nobreak\ }
 
 \setlength{\hintscolumnwidth}{0pt}
 \linespread{1.1}
 
 \firstname{Dr Pierre-Yves}
 \familyname{Dupont}
-\address{Institute of Fundamental Sciences, Massey University}{Palmerston North, Manawatu}{New Zealand - 4442}
-\phone{+64 (0)21 082 06550}
-\email{pierreyves.dupont@gmail.com}
-\homepage{pydupont.github.io/CV}
+\address{Massey University - Institute of Fundamental Sciences}{Palmerston North, Manawatu}{New Zealand - 4442}
+\phone{021 0820 6550}
+\email{p.y.dupont@massey.ac.nz}
+\homepage {http://pydupont.github.io/CV/}
 
 \begin{document}
 \maketitle
-\setlength{\parskip}{2em}
 
 \section{PERSONAL}
 \begin{description}[nosep,labelwidth=1.25in,labelsep=3ex,leftmargin=!,align=right]
 \item[Date of Birth] 24/4/1984
+
 \item[Nationality] French
-\item[Residency] New Zealand
+
+\item[Residency] Permanent New Zealand resident
+
 \item[Languages] French (mother tongue), English (advanced)
+
 \end{description}
 
-\section{POSITIONS}
-\cvitem{}{\textbf{Postdoctoral researcher in bioinformatics at Massey University}, Palmerston North, New Zealand; 2016 -- current\\
-Time to fight back: harnessing molecular determinants of virulence and adaptation in kauri dieback pathogens. This work aims at studying the \emph{Phytophthora agathidicida} population structure and their effector diversity. Massey University and the Bio-Protection Research Centre}
-
-\cvitem{}{\textbf{Postdoctoral researcher in bioinformatics at Massey University}, Palmerston North, New Zealand; 2012 -- 2016\\
-Lateral gene transfer in fungi: Identifying the cross-species toolbox for metabolic innovation. This work involves the development of different web applications, scripts and software to analyse and display complex data. Massey University and the Bio-Protection Research Centre}
-
-\cvitem{}{\textbf{PhD studentship at INRA}, Clermont Ferrand, France; 2008 -- 2011\\
-Thesis on developing bioinformatics tools to combine information from metabolomics, transcriptomics and promotor studies to characterize metabolic pathways involved in liver cancers. Collaboration with Polytechnic school (Palaiseau, France) to develop software for biological pathway modelling and biochemical dynamics analysis.}
-
-\cvitem{}{\textbf{Masters Internship at European Institute of Biology and Chemistry}, Bordeaux, France; 2008\\
-Evaluation of a docking software (Autodock v.4) and development of an automatic procedure to compute docking of multiple ligands on kinase receptors using a computation cluster.}
-
-\cvitem{}{\textbf{Bachelor Internship at Bordeaux University}, Bordeaux, France; 2007\\
-Development of software for visualisation and detection of internal movements in biomolecules.}
-
 \section{EDUCATION}
-\cvitem{2011}{\textbf{PhD in Computational Biology}, INRA, Clermont Ferrand, France}
-\cvitem{2008}{\textbf{Masters in Computational Biology}, Bordeaux University, France, \emph{Class Major}}
+\cvitem{2011}{\textbf{PhD in Computational Biology}, INRA, Clermont Ferrand}
+\cvitem{2008}{\textbf{Masters in Computational Biology}, Bordeaux University, \emph{Top of Class}}
 \cvitem{2007}{\textbf{Bachelor in Computer Sciences}, Bordeaux University}
 \cvitem{2005}{\textbf{Bachelor in Biology, Geology and Earth Sciences}, Bordeaux University, Diploma to become biology and geology teacher in high school}
 
-\section{AWARDS}
-\cvitem{2015}{\textbf{Massey University Team Research Medal}, Medal given to the Massey Bio-Protection Research Team for our research on \emph{"Decoding the molecular basis of fungal-plant interactions"}. Rosie Bradshaw, Murray Cox, \textbf{Pierre-Yves Dupont}, Carla Eaton, Austen Ganley and Barry Scott}
+\section{POSITIONS}
+\cvitem{}{\textbf{Postdoctoral researcher in computational biology at Massey University}, Palmerston North, New Zealand}
+\cvitem{}{Time to fight back: harnessing molecular determinants of virulence and adaptation in kauri dieback pathogens. 2016 -- current}
+
+\cvitem{}{\textbf{Postdoctoral researcher in computational biology at Massey University}, Palmerston North, New Zealand}
+\cvitem{}{Lateral gene transfer in fungi: Identifying the cross-species toolbox for metabolic innovation. 2012 -- 2016}
+
+\cvitem{}{\textbf{PhD studentship at INRA}, Clermont Ferrand, France}
+\cvitem{}{Thesis on developing bioinformatics tools to combine information from metabolomics, transcritomics and promotor studies to characterise metabolic pathways involved in liver cancers. 2008 -- 2011}
+
+\cvitem{}{\textbf{Masters Internship at European Institute of Biology and Chemistry}, Bordeaux, France, 2008}
+
+\cvitem{}{\textbf{Bachelor Internship at Bordeaux University}, Bordeaux, France, 2007}
+
+\section{SKILLS}
+\cvitem{Bioinformatics}{Phylogeny: Neighbor Joining, Maximum Likelihood, super trees, consensus trees; multiple sequence alignment; protein structure analysis and visualisation; next generation sequencing; population genetics.}
+\cvitem{Computer Sciences and statistics}{Daily use of Windows and Linux (Fedora, Ubuntu, Mint) and command line interface. Good command of languages Ruby (and Ruby on Rails), Python, R (BioConductor) and web technologies (HTML 5, CSS3, JQuery). Common practice of Java, C++,  and Perl (BioPerl, EnsEMBL libraries). Good understanding of Agent-Based Models and Petri Nets.}
+
 
 \section{PUBLICATIONS}
 
-\cvitem{}{\textit{Genomic data quality impacts automatic detection of lateral gene transfer in fungi} - 
-\textbf{Dupont PY} and Cox MP; Genes | Genomes | Genetics; 2017; 7(4):1301-1314}
+\cvitem{}{\textit{Analysis of simple sequence repeat (SSR) structure and sequence within Epichloë endophyte genomes reveals impacts on gene structure and insights into ancestral hybridization events} - Clayton W, Eaton CJ, \textbf{Dupont PY}, Gillanders T, Cameron N, Saikia S, Scott B; PLoS ONE, \textit{in press}}
 
-\cvitem{}{\textit{Fungal endophyte infection of ryegrass reprogrammes host metabolism and alters development} - 
-\textbf{Dupont PY}, Eaton CJ, Wargent JJ, Fechtner S, Solomon P, Schmid J, Day RC, Scott B, Cox MP; New Phytologist; 2015; 208(4):1227-1240}
+\cvitem{}{\textit{Evolution of polyketide synthesis in a Dothideomycete forest pathogen} - Ozturk IK, Chettri P, \textbf{Dupont PY}, Barnes I, McDougal RL, Moore GG, Sim A Bradshaw RE;  Fungal Genetics and Biology, 2017}
 
-\cvitem{}{\textit{A core gene set describes the molecular basis of mutualism and antagonism in Epichlo\"e spp.} - 
-Eaton CJ, \textbf{Dupont PY}, Solomon P, Clayton W, Scott B, Cox MP; Molecular Plant-Microbe Interactions; 2015; 28(3):218-231}
+\cvitem{}{\textit{Host tissue environment directs activities of an \emph{Epichloë} Endophyte, while it induces systemic hormone and defense responses in its native perennial ryegrass host } - Schmid J, Day R, Zhang N, \textbf{Dupont PY}, Cox MP, Schardl CL, Minards N, Truglio M, Moore N, Harris DH, Zhou Y; Molecular Plant-Microbe Interactions, 2017}
 
-\cvitem{}{\textit{HyLiTE: accurate and flexible analysis of gene expression in allopolyploid species} - 
-Duchemin W, \textbf{Dupont PY}, Campbell MA, Ganley A and Cox MP; BMC Bioinformatics, 2015; 16:8}
+\cvitem{}{\textit{Genomic data quality impacts automatic detection of lateral gene transfer in fungi} - \textbf{Dupont PY}, Cox MP;  Genes | Genomes | Genetics, 2017}
 
-\cvitem{}{\textit{Genomes of plant-associated clavicipitaceae} - 
-Schardl CL, Young CA, Moore N, Krom N, \textbf{Dupont PY}, Pan J, Farman ML; Advances in Botanical Research, 2014; 70:291-327}
+\cvitem{}{\textit{Fungal endophyte infection of ryegrass reprogrammes host metabolism and alters development} - \textbf{Dupont PY}, Eaton CJ, Wargent JJ, Fechtner S, Solomon P, Schmid J, Day RC, Scott B, Cox MP; New Phytologist, 2015}
 
-\cvitem{}{\textit{Computational identification of transcriptionally co-regulated genes, validation with the four ANT isoform genes} - 
-\textbf{Dupont PY}, Guttin A, Issartel JP, Stepien G; BMC Genomics, 2012; 13:482}
+\cvitem{}{\textit{A core gene set describes the molecular basis of mutualism and antagonism in Epichlo\"e spp.} - Eaton CJ, \textbf{Dupont PY}, Solomon P, Clayton W, Scott B, Cox MP; Molecular Plant-Microbe Interactions; 2015}
 
-\cvitem{}{\textit{Computational analysis of the transcriptional regulation of the adenine nucleotide translocator isoform 4 gene and its role in spermatozoid glycolytic metabolism} - 
-\textbf{Dupont PY}, Stepien G; Gene, 2011; 487(1):38-45}
+\cvitem{}{\textit{HyLiTE: accurate and flexible analysis of gene expression in allopolyploid species} - Duchemin W, \textbf{Dupont PY}, Campbell MA, Ganley A and Cox MP; BMC Bioinformatics, 2015}
 
-\cvitem{}{\textit{Description and assessment of a model for GSK-3beta database virtual screening} - 
-Ventimila N, \textbf{Dupont PY}, Laguerre M, Dessolin J; J Enzyme Inhib Med Chem, 2010; 25(2):152-7}
+\cvitem{}{\textit{Genomes of plant-associated clavicipitaceae} - Schardl CL, Young CA, Moore N, Krom N, \textbf{Dupont PY}, Pan J, Farman ML; Advances in Botanical Research, 2014}
 
-\section{CONFERENCES}
-\cvitem{}{\textit{Insights into the molecular mechanisms underlying grass-endophyte symbiosis} - 
-Plant-fungal interactions symposium; The Samuel Roberts Noble Foundation; March 2015; Oral presentation}
+\cvitem{}{\textit{Computational identification of transcriptionally co-regulated genes, validation with the four ANT isoform genes} - \textbf{Dupont PY}, Guttin A, Issartel JP, Stepien G; BMC Genomics, 2012}
 
-\cvitem{}{\textit{Fungal endophyte infection of ryegrass reprograms host metabolism and alters development} - 28th Fungal Genetics Conference; March 2015; Poster}
+\cvitem{}{\textit{Computational analysis of the transcriptional regulation of the adenine nucleotide translocator isoform 4 gene and its role in spermatozoid glycolytic metabolism} - \textbf{Dupont PY}, Stepien G; Gene, 2011}
 
-\cvitem{}{\textit{Endophyte infection of ryegrass alters metabolism, development and response to stress} - Queenstown Molecular Biology Conference; August 2014; Two oral presenations (plant satellite and main meeting)}
+\cvitem{}{\textit{Description and assessment of a model for GSK-3beta database virtual screening} - Ventimila N, \textbf{Dupont PY}, Laguerre M, Dessolin J; J Enzyme Inhib Med Chem, 2010}
 
 \section{SOFTWARE AND DATABASES}
-\cvitem{}{\textbf{\emph{Epichlo\"e festucae} gene models database} - This Ruby on Rails web application contains functional annotations for all \emph{E. festucae} E2368 gene models. It includes links to major international bioinformatics databases. It is used by international researchers and considered as one of the major tools for studies on fungal endophytes. Publically available at: \textit{\href{}{http://epichloe.massey.ac.nz}}}
-\cvitem{}{\textbf{Perennial Ryegrass gene models database} - This Ruby on Rails database contains functional annotations for over 50,000 predicted perennial ryegrass genes. Publically available at: \textit{\href{}{http://ryegrass.massey.ac.nz}}}
-\cvitem{}{\textbf{Hybrid Lineage Transcriptome Explorer (HyLiTE)} - HyLiTE is a software allowing the analysis of high-throughput transcriptome data from allopolyploid species. Publically available at: \textit{\href{}{http://sourceforge.net/projects/hylite}}}
-\cvitem{}{\textbf{Geneprom} - Geneprom is a Ruby on Rails web application developed during my PhD. It allows users to study regulatory elements present in gene promoters}
-\cvitem{}{\textbf{MPSA (Metabolic Pathway Software Analyzer)} - This is a Java plugin for VANTED. It allows the integration of data from different biological analysis methods to have a better understanding of metabolic pathways and their regulation}
-\cvitem{}{I also worked on the development of a proprietary information system for academic research (written in C++) during my PhD. Some more of my work, including the slides of my teaching, can be found in my Sourceforge (\href{}{http://sourceforge.net/u/pydupont/profile/}) and Github (\href{}{https://github.com/pydupont}) personal pages}
+\cvitem{}{\textbf{Genomic annotation of \textit{Epichlo\"e festucae} E2368 gene models}}
+\cvitem{}{Publically available at: \textit{\href{}{http://epichloe.massey.ac.nz}}. This database contains functional annotations predicted by sequence homology for all \textit{E. festucae} E2368 gene models. It includes links to major international bioinformatics databases including Pfam, Gene Ontology (GO), KEGG, Interproscan and GenBank.}
+\cvitem{}{\textbf{Genomic annotation of perennial ryegrass (\textit{Lolium perenne}) gene models}}
+\cvitem{}{Publically available at: \textit{\href{}{http://ryegrass.massey.ac.nz}}. This database contains functional annotations predicted by sequence homology for over 50,000 predicted perennial ryegrass coding sequences. It includes links to the major international bioinformatics databases listed above.}
+\cvitem{}{\textbf{Hybrid Lineage Transcriptome Explorer (HyLiTE)}}
+\cvitem{}{Publically available at: \textit{\href{}{http://sourceforge.net/projects/hylite}}. HyLiTE is a software allowing the analysis of high-throughput transcriptome data from allopolyploid species}
 
-\section{TEACHING}
-\cvitem{}{I have been involved in teaching to both undergraduate students and academic staff. I have taught Microarray analysis to third year students at Massey University in 2015 and to medical students in Clermont-Ferrand University, France in 2010 and 2011. I also created an introductory course to Unix and Python programming for Massey University staff (2013-2014). I have also given numerous tutorials on a variety of computer-related topics including SVN and GIT, Ruby on Rails and Lisp. Finally, I train and mentor PhD students and confirmed researchers for statistical analyses and the use of bioinformatics tools in the space or transcriptomics, phylogenetics, next-generation sequencing and comparative genomics.}
+\cvitem{}{\textbf{Geneprom}}
+\cvitem{}{Geneprom is a Ruby on Rails web application developed during my PhD. It allowed me to study regulatory elements present in gene promoters.}
 
-\section{SKILLS}
-\cvitem{Phylogeny}{Neighbor Joining, Maximum Likelihood (PHYLIP, PhyML, RAxML), supertrees, consensus trees. Multiple sequence alignments with mafft, clustal, kalign, muscle, etc. Analysis libraries: ETE toolkit + BioPython (Python) and phangorn (R)}
-\cvitem{Next Generation Sequencing}{Expert in NGS data analysis. RNA-Seq (Illumina) data analysis from raw read data to complex statistical analysis of the results and experimental condition comparison. Genomic (Illumina and 454) de novo assembly, genomic comparison and SNP calling}
-\cvitem{Statistics}{Good understanding of statistics, Markov chains and Monte Carlo statistics. Principal and Independent Component Analysis, clustering. Commonly build statistical pipeline for analysing biological data. Common use of Python and R for adanced data analysis}
-\cvitem{Protein structure analysis and visualisation}{AutoDock, GOLD, VMD }
-\cvitem{Operating systems}{Daily use of Windows 7 and 10 computers as well as Linux (Fedora, Ubuntu and Mint). Good command of Mac OS X. Common use of high performance computing (OpenMP, MPI, Torque and OpenPBS)}
-\cvitem{Languages and Libraries}{Good command of languages Ruby, Python (Pandas, Matplotlib, Plotly, ScikitLearn) and Java. Common practice of C++, R (BioConductor) and Perl (BioPerl, EnsEMBL libraries). Good understanding of Agent-Based Models and Petri Nets and their implementation}
-\cvitem{Web technologies}{Advanced knowledge of Ruby on Rails. Good practice of HTML5, CSS3 and Javascript (including JQuery, Underscorejs, ...) and SQL (MySQL, PostgreSQL)}
-\cvitem{Modeling and development practices}{Good knowledge of UML diagrams, Test Driven Development, Continuous Integration and versioning systems (git, svn, cvs), Docker}
+\cvitem{}{\textbf{MPSA}}
+\cvitem{}{Metabolic Pathway Software Analyzer. It is a Java plugin for the software VANTED. It allows the integration of data from different biological analysis methods to have a better understanding of metabolic pathways and their regulation.}
 
 \end{document}
