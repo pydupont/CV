@@ -441,6 +441,10 @@ span.highlight {
   font-weight: 500;
 }
 
+#publication .info-articles i{
+  font: 16px/24px 'librebaskerville', serif;
+}
+
 /*#publication .resume-infos {
   padding-left: 50px;
 }*/
